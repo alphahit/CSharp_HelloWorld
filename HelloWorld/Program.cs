@@ -46,11 +46,14 @@ string str = "123";
 int num = int.Parse(str); // Convert string to int
 int num2 = Convert.ToInt32(str); // Another way to convert string to int
 
-//In C#
-// A byte = 1 byte
-// A Short = 2 bytes
-// An Int = 4 bytes
-// A Long = 8 bytes
+/*
+ Multiline Comment
+ In C#
+ A byte = 1 byte
+ A Short = 2 bytes
+ An Int = 4 bytes
+ A Long = 8 bytes
+*/
 
 //Convert Class
 // ToByte(),
@@ -92,7 +95,18 @@ catch (Exception ex)
 //Division,/, Divides the first operand by the second.,10 / 5,2
 //Remainder,%, Returns the remainder after division (modulus).,10 % 3,1
 
-
+var aa = 10;
+var ab = 3;
+var cc = 20;
+Console.WriteLine($"aa/bb - {aa/ab}");
+Console.WriteLine((float)aa / (float)ab);
+Console.WriteLine($"aa + ab * cc - {aa + ab * cc}");
+Console.WriteLine($"(aa + ab) * cc - {(aa + ab) * cc}");
+Console.WriteLine(ab > aa);
+Console.WriteLine(ab != aa);
+Console.WriteLine(!(ab != aa));
+Console.WriteLine($"cc > ab && cc > aa : {cc > ab && cc > aa}");
+Console.WriteLine($"ab > cc || cc > aa : {ab > cc || cc > aa}");
 
 //Unary Operators(Using one variable)
 //These are shorthand ways to update a variable's current value.
